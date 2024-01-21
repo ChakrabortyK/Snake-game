@@ -25,7 +25,7 @@ function main(currentTime) {
     // Display game over message and prompt for restart
     if (confirm("Game Over. Press Enter to restart")) {
       // Reload the page to restart the game
-      window.location = "/";
+      window.location = "/Snake-game/";
     } else {
       // Exit the main function if the game is over
       return;
